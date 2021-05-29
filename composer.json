@@ -1,0 +1,22 @@
+{
+    "name": "jdmm/mqtt",
+    "description": "The message queue adapter based on mqtt.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangc",
+            "email": "wangchen@jdmomedia.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jdmm\\Mqtt\\": "src/"
+        }
+    }
+}
